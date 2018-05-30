@@ -1,0 +1,17 @@
+body {
+    background: #FFA5B4;
+}
+
+#sign-btn {
+    background-color: #19384A;
+    border-color: #19384A;
+    border-width: 2px;
+    color: #fff;
+}
+
+#log-btn {
+    background-color: #00000000;
+    border-color: #19384A;
+    border-width: 2px;
+    color: #19384A;
+}
