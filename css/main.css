@@ -21,3 +21,41 @@ a:visited {
         display: inline-block;
     }
 }
+
+.navbar {
+    box-shadow: 6px 6px 10px 6px #66666677;
+}
+
+.active {
+    color: #19384A
+}
+
+.heart {
+    color: #FFA5B4
+}
+
+.emergency {
+    width: 70px;
+    height: 70px;
+    background-color: #FFA5B4;
+    border-radius: 50%;
+    box-shadow: 0 6px 10px 0 #66666677;
+    transition: all 0.1s ease-in-out;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    position: fixed;
+    right: 50px;
+    bottom: 70px;
+    z-index: 1000;
+}
+
+.emergency:hover {
+    box-shadow: 0 6px 14px 0 #666;
+    transform: scale(1.05);
+}
+
+.emergency svg {
+    padding-top: 10px;
+}
