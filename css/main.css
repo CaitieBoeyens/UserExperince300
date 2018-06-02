@@ -23,7 +23,7 @@ a:visited {
 }
 
 .navbar {
-    box-shadow: 6px 6px 10px 6px #66666677;
+    box-shadow: 6px 6px 10px 6px #00000077;
 }
 
 .active {
@@ -39,7 +39,8 @@ a:visited {
     height: 70px;
     background-color: #FFA5B4;
     border-radius: 50%;
-    box-shadow: 0 6px 10px 0 #66666677;
+    border: 1px solid #19384A;
+    box-shadow: 0 6px 10px 0 #00000077;
     transition: all 0.1s ease-in-out;
     font-size: 50px;
     color: white;
@@ -58,4 +59,20 @@ a:visited {
 
 .emergency svg {
     padding-top: 10px;
+}
+
+.bubble {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 4px #FFA5B4 solid;
+    background-color: #00000000;
+    margin: 2em auto;
+}
+
+.block {
+    width: 80%;
+    border: 4px #FFA5B4 solid;
+    background-color: #00000000;
+    margin: 1em auto;
 }

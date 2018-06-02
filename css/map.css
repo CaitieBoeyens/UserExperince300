@@ -1,9 +1,11 @@
-    body {}
+body {
+    background: #19384A;
+}
 
-    iframe {
-        height: 80vh;
-    }
+iframe {
+    height: 80vh;
+}
 
-    .bot-links {
-        margin: auto 20px;
-    }
+.bot-links {
+    margin: auto 20px;
+}

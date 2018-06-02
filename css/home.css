@@ -1,0 +1,10 @@
+body {
+    background: #19384A;
+}
+
+.group {
+    width: 80%;
+    margin: 1em auto;
+    border: 4px #FFA5B4 solid;
+    background-color: #00000000
+}
