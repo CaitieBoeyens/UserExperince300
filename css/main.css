@@ -9,7 +9,7 @@ a {
 }
 
 a:visited {
-    color: white
+    color: none
 }
 
 .navbar-item {
@@ -75,4 +75,9 @@ a:visited {
     border: 4px #FFA5B4 solid;
     background-color: #00000000;
     margin: 1em auto;
+}
+
+.logo img {
+    width: 60%;
+    margin: auto;
 }

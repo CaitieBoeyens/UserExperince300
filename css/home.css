@@ -8,3 +8,15 @@ body {
     border: 4px #FFA5B4 solid;
     background-color: #00000000
 }
+
+.group-icon {
+    width: 70px;
+    height: 70px;
+    background-color: #FFA5B4;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.group-icon svg {
+    padding-top: 20px;
+}
